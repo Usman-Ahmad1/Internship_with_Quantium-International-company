@@ -23,7 +23,7 @@ This repository contains the analysis and commercial insights derived from the Q
 * Budget Young Singles/Couples underperform in comparison, with a $16.18 average annual spend.
 
 ### Sales Trends
-*(Upload your "Total Chips Sales by Date" line chart here and update the path)*
+*( "Total Chips Sales by Date" line chart")*
 <img width="648" height="229" alt="image" src="https://github.com/user-attachments/assets/f17814c5-c2e4-4925-ba9c-8534740ef0cb" />
 
 
@@ -51,11 +51,11 @@ The trial was directionally successful, with all trial stores experiencing posit
 * **Store 88:** Achieved a +5.75% increase in unique customer visits.
 
 ### Pre-Trial & Trial Comparisons
-*( "Pre-trial Monthly Sales Trial 77.0 vs Control 233" line chart here)*
+*( "Pre-trial Monthly Sales Trial 77.0 vs Control 233" )*
 <img width="434" height="180" alt="image" src="https://github.com/user-attachments/assets/875e4e38-5165-42cc-9350-89a259bf1fc3" />
 
 
-*("Monthly Customer Count Comparison" chart here)*
+*("Monthly Customer Count Comparison")*
 <img width="337" height="271" alt="image" src="https://github.com/user-attachments/assets/403dee9e-4813-4687-8137-5bf96bd8afdb" />
 
 ---
