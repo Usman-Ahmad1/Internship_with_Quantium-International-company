@@ -1,6 +1,6 @@
 # Quantium Analytics and Commercial Insights - Task 1 & 2
 
-[cite_start]**Presented by:** Usman Ahmad [cite: 2]
+**Presented by:** Usman Ahmad [cite: 2]
 
 ## 📌 Executive Summary
 This repository contains the analysis and commercial insights derived from the Quantium virtual internship. The project is divided into two primary tasks: analyzing customer purchasing behaviors and evaluating the performance of trial store layouts. 
