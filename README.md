@@ -34,8 +34,8 @@ The analysis utilized transaction-level data (`Quantium data.xlsx`) and customer
 **Sales Trends:** Peak sales occurred in January 2019, with noticeable dips at the end of August 2018 and June 2019.
 **Product Preferences:** The 175g pack size is the category anchor, and Kettle is the dominant brand across all customer segments
 
-*(Upload your Sales Trends chart here and update the path)*
-`![Sales Trends](images/sales_trends.png)`
+<img width="1296" height="458" alt="Screenshot 2026-03-19 150943" src="https://github.com/user-attachments/assets/a44c02d7-87c6-4f70-b9a2-94cec2b10634" />
+
 
 ### Customer Segments
 **Volume Drivers:** Older Families in the Budget and Mainstream tiers generated the highest total sales revenue and transaction volumes.
@@ -43,8 +43,8 @@ The analysis utilized transaction-level data (`Quantium data.xlsx`) and customer
 * **Segment Sizes:** Mainstream tier customers represent 40.3% of the entire customer base (29,245 customers).
 **Extremes:** Mainstream Young Singles/Couples had the highest average transaction value ($7.56), while Budget Young Singles/Couples were the lowest-value segment ($16.18 average annual spend).
 
-*(Upload your Customer Segments chart here and update the path)*
-`![Customer Segments](images/customer_segments.png)`
+
+<img width="901" height="587" alt="Screenshot 2026-03-19 151101" src="https://github.com/user-attachments/assets/2f9e5a2b-5925-480d-9507-70d13ffbfc34" />
 
 ---
 
@@ -54,10 +54,12 @@ A new store layout was trialed from February to April 2019.Trial stores were mat
 
 **Results:**
 * All three trial stores (77, 86, and 88) outperformed their matched control stores (233, 155, and 237) in Total Sales, Customer Count, and Transaction Volume during the trial window.
-* [cite_start]**Store 77 (Top Performer):** Delivered a +29.13% increase in total sales and a +23.48% increase in unique customers compared to its control store.
+  **Store 77 (Top Performer):** Delivered a +29.13% increase in total sales and a +23.48% increase in unique customers compared to its control store.
 
-*(Upload your Trial Store Performance chart here and update the path)*
-`![Trial Store Performance](images/trial_performance.png)`
+
+<img width="674" height="541" alt="Screenshot 2026-03-19 151405" src="https://github.com/user-attachments/assets/2d26c704-09b0-49e3-9398-2c44acb037f5" />
+
+
 
 ---
 
