@@ -23,7 +23,7 @@ This project was completed as part of the **Quantium Data Analytics Virtual Expe
 | Task | Objective |
 |------|-----------|
 | **Task 1** | Understand which customer segments drive chips category sales and identify key product preferences |
-| **Task 2** | Evaluate whether a new in-store layout trialed at select stores performed well enough to justify a full network rollout |
+| **Task 2** | Evaluate whether a new in store layout trialed at select stores performed well enough to justify a full network rollout |
 
 **Business Period Covered:** FY 2018–19
 
