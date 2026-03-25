@@ -1,6 +1,6 @@
-# 🛒 Quantium Retail Analytics — Customer Behavior & Trial Store Evaluation
+#  Quantium Retail Analytics  Customer Behavior & Trial Store Evaluation
 
-> **A data-driven portfolio project analyzing customer purchasing behavior and evaluating a new in-store layout trial for a major Australian supermarket chain.**
+> **A data driven portfolio project analyzing customer purchasing behavior and evaluating a new in store layout trial for a major Australian supermarket chain.**
 
 ---
 
