@@ -1,75 +1,192 @@
+ **A data-driven portfolio project analyzing customer purchasing behavior and evaluating a new in-store layout trial for a major Australian supermarket chain.**
+
+---
+
+## 📋 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Tools & Technologies](#tools--technologies)
+- [Dataset & Data Pipeline](#dataset--data-pipeline)
+- [Task 1 — Customer & Purchasing Behavior Analysis](#task-1--customer--purchasing-behavior-analysis)
+- [Task 2 — Trial Store Performance Evaluation](#task-2--trial-store-performance-evaluation)
+- [Strategic Recommendations](#strategic-recommendations)
+- [Project Structure](#project-structure)
+
+---
 
 ## 📌 Project Overview
-This portfolio project focuses on two primary objectives for a major Australian supermarket chain: 
-* **Task 1: Customer & Purchasing Behavior Analysis** 
-* **Task 2: Trial Store Performance Evaluation** 
 
-The goal was to understand which customer segments drive sales volume and value, identify product preferences, and evaluate if a new in-store layout intervention was successful enough to roll out across the broader store network.
+This project was completed as part of the **Quantium Data Analytics Virtual Experience Program**. It addresses two core business problems for a major Australian supermarket chain:
+
+| Task | Objective |
+|------|-----------|
+| **Task 1** | Understand which customer segments drive chips category sales and identify key product preferences |
+| **Task 2** | Evaluate whether a new in-store layout trialed at select stores performed well enough to justify a full network rollout |
+
+**Business Period Covered:** FY 2018–19
 
 ---
 
 ## 🛠️ Tools & Technologies
-* **Language:** Python 3 
-* **Libraries:** pandas, NumPy, Matplotlib, SciPy (t-test for trial significance) 
-***Environment:** Kaggle Notebooks (Jupyter-based) 
-* **Data Formats:** Excel (.xlsx), CSV (.csv) 
+
+| Category | Details |
+|----------|---------|
+| **Language** | Python 3 |
+| **Libraries** | pandas, NumPy, Matplotlib, SciPy |
+| **Statistical Method** | Independent samples t-test (trial significance testing) |
+| **Environment** | Kaggle Notebooks (Jupyter-based) |
+| **Data Formats** | Excel `.xlsx`, CSV `.csv` |
 
 ---
 
-## 📂 Dataset & Methodology
-The analysis utilized transaction-level data (`Quantium data.xlsx`) and customer loyalty card data (`QVI_purchase_behaviour.csv`), which were later combined into an enriched dataset (`QVI_data.csv`) covering the FY 2018–19 period.
+## 📂 Dataset & Data Pipeline
 
-**Data Processing Steps:**
- **Cleaning:** Removed duplicate records and filtered out non-retail/bulk outliers (e.g., transactions where `PROD_QTY = 200`)
-**Formatting:** Converted the `DATE` column from an Excel serial number to a standard Python datetime format.
- **Feature Engineering:** Extracted brand names and pack sizes directly from the `PROD_NAME` column using string parsing.
-**Merging:** Joined the cleaned transaction and customer datasets using the loyalty card number (`LYLTY_CARD_NBR`).
+### Source Files
 
----
+| File | Description |
+|------|-------------|
+| `Quantium data.xlsx` | Transaction-level purchase records |
+| `QVI_purchase_behaviour.csv` | Customer loyalty card segmentation data |
+| `QVI_data.csv` | Final enriched dataset (merged output) |
 
-##  Customer Behavior & Category Insights
+### Processing Steps
 
-### Category Overview
-**Total FY 2018–19 Revenue:** $1,933,109 across 264,833 transactions
-**Sales Trends:** Peak sales occurred in January 2019, with noticeable dips at the end of August 2018 and June 2019.
-**Product Preferences:** The 175g pack size is the category anchor, and Kettle is the dominant brand across all customer segments
+**1. Data Cleaning**
+- Removed duplicate transaction records
+- Filtered out non-retail / bulk-buy outliers (e.g., transactions where `PROD_QTY = 200`)
 
-<img width="1296" height="458" alt="Screenshot 2026-03-19 150943" src="https://github.com/user-attachments/assets/a44c02d7-87c6-4f70-b9a2-94cec2b10634" />
+**2. Data Formatting**
+- Converted the `DATE` column from Excel serial number format to a standard Python `datetime` object
 
+**3. Feature Engineering**
+- Extracted **brand names** and **pack sizes** directly from the `PROD_NAME` column using string parsing
 
-### Customer Segments
-**Volume Drivers:** Older Families in the Budget and Mainstream tiers generated the highest total sales revenue and transaction volumes.
-**Value Drivers:** Young Families showed strong loyalty and larger basket sizes, boasting the highest average annual spend per customer at $34.69.
-* **Segment Sizes:** Mainstream tier customers represent 40.3% of the entire customer base (29,245 customers).
-**Extremes:** Mainstream Young Singles/Couples had the highest average transaction value ($7.56), while Budget Young Singles/Couples were the lowest-value segment ($16.18 average annual spend).
-
-
-<img width="901" height="587" alt="Screenshot 2026-03-19 151101" src="https://github.com/user-attachments/assets/2f9e5a2b-5925-480d-9507-70d13ffbfc34" />
+**4. Dataset Merging**
+- Joined cleaned transaction data with customer loyalty data on `LYLTY_CARD_NBR` (loyalty card number)
 
 ---
 
-## 🏬 Task 2: Trial Store Performance
+## Task 1 — Customer & Purchasing Behavior Analysis
 
-A new store layout was trialed from February to April 2019.Trial stores were matched with control stores based on highly correlated pre-trial performance metrics.
+### Category-Level Summary
 
-**Results:**
-* All three trial stores (77, 86, and 88) outperformed their matched control stores (233, 155, and 237) in Total Sales, Customer Count, and Transaction Volume during the trial window.
-  **Store 77 (Top Performer):** Delivered a +29.13% increase in total sales and a +23.48% increase in unique customers compared to its control store.
+| Metric | Value |
+|--------|-------|
+| **Total FY 2018–19 Revenue** | $1,933,109 |
+| **Total Transactions** | 264,833 |
+| **Peak Sales Month** | January 2019 |
+| **Notable Dips** | End of August 2018 & June 2019 |
+| **Dominant Pack Size** | 175g (category anchor) |
+| **Dominant Brand** | Kettle (leading across all segments) |
 
+---
 
-<img width="674" height="541" alt="Screenshot 2026-03-19 151405" src="https://github.com/user-attachments/assets/2d26c704-09b0-49e3-9398-2c44acb037f5" />
+### Customer Segment Insights
 
+#### Volume Drivers
+- **Older Families — Budget & Mainstream tiers** generated the highest total sales revenue and transaction volumes, making them the backbone of category performance.
 
+#### Value Drivers
+- **Young Families** demonstrated strong loyalty with the **highest average annual spend per customer at $34.69**, indicating a high-value, retention-worthy segment.
+
+#### Segment Size
+- **Mainstream customers** represent **40.3% of the entire customer base** (29,245 customers) — the largest single tier.
+
+#### Segment Extremes
+
+| Segment | Metric | Value |
+|---------|--------|-------|
+| Mainstream Young Singles/Couples | Highest avg. transaction value | $7.56 |
+| Budget Young Singles/Couples | Lowest avg. annual spend | $16.18 |
+
+---
+
+## Task 2 — Trial Store Performance Evaluation
+
+### Trial Setup
+
+- **Trial Period:** February – April 2019 (3 months)
+- **Trial Stores:** 77, 86, 88
+- **Matched Control Stores:** 233, 155, 237 respectively
+- **Matching Method:** Stores were paired based on highly correlated pre-trial performance metrics (sales, customer count, transaction volume)
+
+### Results Summary
+
+All three trial stores **outperformed** their matched control stores across all key metrics during the trial window.
+
+| Trial Store | Control Store | Sales Uplift | Unique Customer Uplift |
+|-------------|---------------|--------------|------------------------|
+| **Store 77** ⭐ | Store 233 | **+29.13%** | **+23.48%** |
+| Store 86 | Store 155 | Positive | Positive |
+| Store 88 | Store 237 | Positive | Positive |
+
+> ⭐ **Store 77** was the top performer across all metrics.
+
+### Statistical Caveat
+
+While all trial stores showed **directionally strong positive results**, the **3-month observation window was too short** to reach formal statistical significance.
+
+```
+p-value > 0.05  →  Results do not meet the significance threshold
+```
+
+This does not mean the layout failed — it means the data collected is **not yet sufficient** to rule out random variation with confidence.
 
 ---
 
 ## 💡 Strategic Recommendations
-1. **Promotions:** Prioritize Older Families (Budget & Mainstream) for volume-based promotions, as they are the backbone of category revenue.
-2. **Retention:** Invest in retention strategies for Young Families to protect their high per-customer spend.
-3. **Inventory:** Stock the 175g pack size prominently and ensure Kettle brand availability across all stores.
-4. **Layout Rollout:** While the trial layout showed directionally positive results, the short three-month window meant results did not reach statistical significance ($p > 0.05$).A cautious, monitored rollout is recommended, extending the observation period to 6+ months before committing to a full network rollout.
 
-## 💡 Recommendations & Next Steps
-* **Rollout Strategy:** Proceed with a cautious, monitored rollout of the new store layouts. 
-* **Statistical Caveat:** Because of the short three-month trial window, the strong percentage uplifts for Store 77 did not achieve formal statistical significance (p > 0.05). 
-* **Monitoring:** It is highly recommended to extend the monitoring period before executing a full network-wide rollout to ensure long-term sustained growth.
+### 1. Promotions — Target Volume Drivers
+> Prioritize **Older Families (Budget & Mainstream)** for volume-based promotions. These customers are the primary revenue engine of the chips category.
+
+### 2. Retention — Protect High-Value Segments
+> Invest in **loyalty and retention strategies for Young Families**. Their high per-customer annual spend ($34.69) makes them disproportionately valuable relative to their segment size.
+
+### 3. Inventory — Stock for Demand
+> Ensure **175g pack sizes** are prominently displayed and that **Kettle brand** availability is maintained across all stores, as these drive consistent purchases across all customer segments.
+
+### 4. Store Layout Rollout — Proceed with Caution
+> The trial layout showed **strong directional uplift** (up to +29.13% in sales for Store 77), but the **3-month window was insufficient** to confirm statistical significance (`p > 0.05`).
+
+**Recommended Action:**
+- ✅ Proceed with a **cautious, monitored rollout**
+- 📅 Extend the observation period to **6+ months** before committing to full network rollout
+- 📊 Re-evaluate significance with the expanded data window
+
+---
+
+## 🗂️ Project Structure
+
+```
+quantium-retail-analytics/
+│
+├── data/
+│   ├── Quantium data.xlsx          # Raw transaction data
+│   ├── QVI_purchase_behaviour.csv  # Customer loyalty segmentation
+│   └── QVI_data.csv                # Final merged & enriched dataset
+│
+├── notebooks/
+│   ├── task1_customer_analysis.ipynb   # Customer behavior analysis
+│   └── task2_trial_evaluation.ipynb    # Trial store performance evaluation
+│
+├── visuals/
+│   ├── sales_trends.png
+│   ├── segment_revenue.png
+│   └── trial_store_comparison.png
+│
+└── README.md
+```
+
+---
+
+## 📊 Key Visualizations
+
+| Visual | Description |
+|--------|-------------|
+| Sales Trend Chart | Monthly revenue across FY 2018–19 highlighting peaks and dips |
+| Customer Segment Revenue | Total revenue and transaction volume broken down by life stage and premium tier |
+| Trial vs Control Comparison | Side-by-side performance of trial stores vs matched controls |
+
+---
+
+*This project was completed as part of the Quantium Data Analytics Virtual Experience Program.*
