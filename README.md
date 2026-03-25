@@ -1,4 +1,6 @@
- **A data-driven portfolio project analyzing customer purchasing behavior and evaluating a new in-store layout trial for a major Australian supermarket chain.**
+# 🛒 Quantium Retail Analytics — Customer Behavior & Trial Store Evaluation
+
+> **A data-driven portfolio project analyzing customer purchasing behavior and evaluating a new in-store layout trial for a major Australian supermarket chain.**
 
 ---
 
@@ -79,6 +81,10 @@ This project was completed as part of the **Quantium Data Analytics Virtual Expe
 | **Dominant Pack Size** | 175g (category anchor) |
 | **Dominant Brand** | Kettle (leading across all segments) |
 
+**Sales Trend — FY 2018–19:**
+
+![Sales Trends](https://github.com/user-attachments/assets/a44c02d7-87c6-4f70-b9a2-94cec2b10634)
+
 ---
 
 ### Customer Segment Insights
@@ -98,6 +104,10 @@ This project was completed as part of the **Quantium Data Analytics Virtual Expe
 |---------|--------|-------|
 | Mainstream Young Singles/Couples | Highest avg. transaction value | $7.56 |
 | Budget Young Singles/Couples | Lowest avg. annual spend | $16.18 |
+
+**Customer Segment Revenue Breakdown:**
+
+![Customer Segments](https://github.com/user-attachments/assets/2f9e5a2b-5925-480d-9507-70d13ffbfc34)
 
 ---
 
@@ -121,6 +131,10 @@ All three trial stores **outperformed** their matched control stores across all 
 | Store 88 | Store 237 | Positive | Positive |
 
 > ⭐ **Store 77** was the top performer across all metrics.
+
+**Trial vs Control Store — Performance Comparison:**
+
+![Trial Store Comparison](https://github.com/user-attachments/assets/2d26c704-09b0-49e3-9398-2c44acb037f5)
 
 ### Statistical Caveat
 
