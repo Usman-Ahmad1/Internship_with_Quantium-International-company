@@ -8,7 +8,7 @@
 
 A major Australian supermarket chain needed answers to two questions:
 
-1. **Who is actually buying chips — and what do they buy?**
+1. **Who is actually buying chips and what do they buy?**
    The category team needed to understand which customer segments drive the most revenue so they could target promotions and optimize shelf strategy.
 
 2. **Does the new store layout work?**
