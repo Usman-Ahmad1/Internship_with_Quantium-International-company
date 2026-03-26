@@ -69,7 +69,7 @@ A major Australian supermarket chain needed answers to two questions:
 
 ![Sales Trends](https://github.com/user-attachments/assets/a44c02d7-87c6-4f70-b9a2-94cec2b10634)
 
-Sales followed a consistent seasonal pattern across FY 2018–19, with a clear **peak in January 2019** likely driven by holiday/summer snacking — and **dips at end of August 2018 and June 2019**, coinciding with end-of-financial-year periods. Revenue held steady overall, indicating a healthy, stable category.
+Sales followed a consistent seasonal pattern across FY 2018–19, with a clear **peak in January 2019** likely driven by holiday/summer snacking and **dips at end of August 2018 and June 2019**, coinciding with end of financial year periods. Revenue held steady overall, indicating a healthy, stable category.
 
 ---
 
@@ -132,7 +132,7 @@ p-value > 0.05  →  Results do not reach formal statistical significance
 
 This does **not** mean the layout failed. It means 3 months of data is not enough to rule out random variation with confidence.
 
-Think of it this way: the direction is strong and consistent across all three stores, but the sample window is too small to be certain the layout  not some other factor — caused the uplift.
+Think of it this way: the direction is strong and consistent across all three stores, but the sample window is too small to be certain the layout  not some other factor  caused the uplift.
 
 **The right call is not to stop. It's to gather more data before going all-in.**
 
