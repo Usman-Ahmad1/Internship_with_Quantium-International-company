@@ -46,20 +46,23 @@ The dataset includes:
 ### 1. The New Layout Drives Acquisition, Not Just Basket Size
 Trial stores outperformed controls. Trial Store 77 was the standout, delivering a **+29.1% sales uplift** and a **+23.5% increase in unique customers** compared to its control store. This indicates the layout successfully brings in *new* chip buyers.
 
-![Sales Trend Trial vs Control](images/task2_chart_6.png)
+![Sales Trend Trial vs Control](<img width="850" height="470" alt="task2_chart_6" src="https://github.com/user-attachments/assets/a73d41f9-10b5-4bb5-a882-e68de6b41981" />
+)
 *(Note: Ensure this path matches where you save task2_chart_6.png)*
 
 ### 2. Volume vs. Value Segments
 * **Older Families (Budget & Mainstream)** are the category's volume engine. They generate the most transactions, meaning any promotions here move the overall category numbers.
 * **Young Families** hold the highest value per head (**$34.69/year**). Losing even a small percentage of these shoppers results in disproportionate revenue drops.
 
-![Total Sales by Segment](images/task1_chart_3.png)
+![Total Sales by Segment](<img width="1080" height="584" alt="task1_chart_3" src="https://github.com/user-attachments/assets/6498cc84-cb69-4061-9318-7fd41e080641" />
+)
 *(Note: Ensure this path matches where you save task1_chart_3.png)*
 
 ### 3. Single-SKU Revenue Risk
 The **175g** pack size is the undeniable anchor, dominating every single customer segment. Stockouts on this specific item size present the single largest risk to daily revenue.
 
-![Sales by Pack Size](images/task1_chart_5.png)
+![Sales by Pack Size](<img width="1084" height="584" alt="task1_chart_5" src="https://github.com/user-attachments/assets/d4e3261e-32ec-4233-8b09-ae1dccb2a5c0" />
+)
 *(Note: Ensure this path matches where you save task1_chart_5.png)*
 
 ---
