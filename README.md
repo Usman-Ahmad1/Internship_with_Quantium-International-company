@@ -1,8 +1,9 @@
 # 🛒 Quantium Data Analytics Virtual Internship
 
 ## 📌 Project Overview
-This project analyzes **264,833 chip transactions** across FY 2018–19 to evaluate the effectiveness of new trial store layouts and identify high value customer purchasing behaviors. The goal is to determine whether the new store strategy drove enough sales uplift to justify a full network rollout.
-**Top Result:** Trial Store 77 delivered a **+29.1% sales increase** and a **+23.5% boost in new customers**, providing strong directional evidence for the new layout's success.
+This project analyzes 264,833 chip transactions (FY 2018–19) to evaluate the effectiveness of a new store layout.
+* **The Goal:** Determine if the layout drives enough uplift to justify a full network rollout.
+* **Key Result:** Trial Store 77 delivered a **+29.1% sales increase** and a **+23.5% boost in new customers**, strongly supporting the new strategy.
 
 ---
 
