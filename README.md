@@ -33,7 +33,7 @@ This project evaluates a new store layout by analyzing **264,833 chip transactio
 ### 1. Proven Acquisition Uplift
 The new layout is a significant driver of new foot traffic. **Trial Store 77** delivered a **29.1% sales increase** and a **23.5% surge in unique customers**. **Store 86** followed with an **11% sales lift** and **8% more customers**, confirming the layout attracts new buyers.
 
-![Sales Trend Trial vs Control](https://github.com/user-attachments/assets/e8b6bf4b-5175-45d5-b002-855efffb192f)
+![](https://github.com/user-attachments/assets/e8b6bf4b-5175-45d5-b002-855efffb192f)
 
 ### 2. High-Value vs. High-Volume Segments
 * **Older Families (Mainstream/Budget):** The "Volume Engine," contributing over **25% of total category sales**. They are the primary target for frequency-based promotions.
@@ -44,7 +44,7 @@ The new layout is a significant driver of new foot traffic. **Trial Store 77** d
 ### 3. Critical SKU Dependency
 The **175g pack size** is the undisputed category leader. In Trial Store 77, this size accounted for nearly **30% of category revenue**. Any stockout in this specific SKU results in immediate revenue leakage.
 
-![Sales by Pack Size]<img width="1084" height="584" alt="Sales by Pack Size" src="https://github.com/user-attachments/assets/03f3f6f2-957a-4bdd-bd32-3cfddf2fbab0" />
+![]<img width="1084" height="584" alt="Sales by Pack Size" src="https://github.com/user-attachments/assets/03f3f6f2-957a-4bdd-bd32-3cfddf2fbab0" />
 
 ---
 
