@@ -39,7 +39,7 @@ The new layout is a significant driver of new foot traffic. **Trial Store 77** d
 * **Older Families (Mainstream/Budget):** The "Volume Engine," contributing over **25% of total category sales**. They are the primary target for frequency-based promotions.
 * **Young Families:** The "Value Anchor," yielding the highest spend per capita at **$34.69/year**. A 5% churn in this segment represents a significantly higher revenue risk.
 
-![Total Sales by Segment](https://github.com/user-attachments/assets/363e4fc9-784d-4388-bba4-46b05d0291b1)
+(https://github.com/user-attachments/assets/363e4fc9-784d-4388-bba4-46b05d0291b1)
 
 ### 3. Critical SKU Dependency
 The **175g pack size** is the undisputed category leader. In Trial Store 77, this size accounted for nearly **30% of category revenue**. Any stockout in this specific SKU results in immediate revenue leakage.
