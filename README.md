@@ -44,7 +44,8 @@ The new layout is a significant driver of new foot traffic. **Trial Store 77** d
 ### 3. Critical SKU Dependency
 The **175g pack size** is the undisputed category leader. In Trial Store 77, this size accounted for nearly **30% of category revenue**. Any stockout in this specific SKU results in immediate revenue leakage.
 
-![Sales by Pack Size](https://github.com/user-attachments/assets/363e4fc9-784d-4388-bba4-46b05d0291b1)
+![Sales by Pack Size](<img width="1084" height="584" alt="task1_chart_5" src="https://github.com/user-attachments/assets/b9eb23e5-db68-450a-9e8e-fc33e4fefcf0" />
+)
 
 ---
 
